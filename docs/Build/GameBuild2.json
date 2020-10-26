@@ -1,0 +1,17 @@
+{
+"companyName": "Daniel Corp",
+"productName": "Fry'n nom!",
+"productVersion": "0.1",
+"dataUrl": "GameBuild2.data.unityweb",
+"wasmCodeUrl": "GameBuild2.wasm.code.unityweb",
+"wasmFrameworkUrl": "GameBuild2.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"backgroundUrl": "GameBuild2.jpg",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#FFFFFF",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.4.12f1"
+}
