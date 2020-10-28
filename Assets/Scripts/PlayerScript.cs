@@ -27,8 +27,6 @@ public class PlayerScript : MonoBehaviour
     private Vector2 playerMovement;
 
     private Rigidbody2D rigidBodyComponentPlayer;
-    private SpriteRenderer playerSpriteRenderer;
-    private Animator animator;
 
     private Transform[] bubbles;
     private Rigidbody2D[] bubblesRigidbody2D;
@@ -57,8 +55,6 @@ public class PlayerScript : MonoBehaviour
     private void Awake()
     {
         rigidBodyComponentPlayer = GetComponent<Rigidbody2D>();
-        playerSpriteRenderer = GetComponent<SpriteRenderer>();
-        animator = GetComponent<Animator>();
 
         spriteRenderer = gameObject.GetComponentInChildren<SpriteRenderer>();
         spriteRenderer.color = baseColor;
